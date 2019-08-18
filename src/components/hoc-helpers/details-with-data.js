@@ -51,7 +51,7 @@ const detailsWithData = (View) => {
             const { item, error} = this.state;
             const { itemId} = this.props;
             if (!itemId) {
-                return <span>Select a item from a list</span>;
+                return <div className="jumbotron text-center"><span>Select a item from a list</span></div>;
             }
 
             if (error) {

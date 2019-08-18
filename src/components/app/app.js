@@ -79,7 +79,7 @@ export default class App extends Component {
                                            />
                                        )}
                                 />
-                                <Route render={() => (<div className="jumbotron"><h2>Page not found</h2></div>)}/>
+                                <Route render={() => (<div className="jumbotron text-center"><h2>Page not found</h2></div>)}/>
                             </Switch>
                         </div>
                     </Router>
